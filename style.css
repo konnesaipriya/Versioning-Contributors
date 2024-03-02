@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('snake.jpg'); /* Replace 'background_image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+#gameArea {
+    text-align: center;
+}
+
+#gameCanvas {
+    background-color: rgba(0, 0, 0, 0.5); /* Adding some transparency to the canvas */
+    display: block; /* Prevents inline spacing */
+    margin: auto;
+}
+
+#score {
+    font-family: Arial, sans-serif;
+    margin-bottom: 8px;
+}
+
+#startGame {
+    margin-top: 8px;
+}
